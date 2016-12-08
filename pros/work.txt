@@ -1,0 +1,24 @@
+<h4>Полёты за работу</h4>
+<p>Мы даём возможность летать за работу с авиа-техникой аэродрома.</p>
+<p>В список работ входит:</p>
+<ul>
+	<li>сборка планеров;</li>
+	<li>покраска;</li>
+	<li>починка;</li>
+	<li>благоустройство;</li>
+	<li>строительство;</li>
+	<li>уборка и т.д.</li>
+</ul>
+<p>Рады приветствовать студентов ВУЗов Москвы (МАИ, МАТИ, МГТУ им. Н.Э.Баумана, МГУ им. М.В.Ломоносова) и лётных училищ, авиационных институтов для работы в ангаре и в мастерских. Оплата &mdash; часы налёта.</p>
+
+<h4>Полёты за взносы</h4>
+<p>Вы можете вносить клубные взносы, из них Вам будут предоставлены скидки на полёты.</p>
+
+<div class="photo-container" style="width: 670px;">
+	<img class="im gallery" src="img/pros/work/work1.jpg" />
+	<img class="im gallery" src="img/pros/work/work2.jpg" />
+	<img class="im gallery" src="img/pros/work/work3.jpg" />
+	<img class="im gallery" src="img/pros/work/work4.jpg" />
+	<img class="im gallery" src="img/pros/work/work5.jpg" />
+	<img class="im gallery" src="img/pros/work/work6.jpg" />
+</div>

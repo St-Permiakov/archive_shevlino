@@ -1,0 +1,924 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+   font-family: 'PF DinDisplay Pro Regular';
+   src: url('fonts/pfdindisplaypro-regular.woff') format('woff');
+}
+
+@font-face
+{
+   font-family: 'PF DinDisplay Pro Light';
+   src: url('fonts/pfdindisplaypro-light.woff') format('woff');
+}
+
+@font-face
+{
+   font-family: 'PF DinDisplay Pro Medium';
+   src: url('fonts/pfdindisplaypro-medium.woff') format('woff');
+}
+
+@font-face
+{
+   font-family: 'PF DinDisplay Pro Thin';
+   src: url('fonts/pfdindisplaypro-thin.woff') format('woff');
+}
+
+body {
+	margin: 0;
+	font-family: PF DinDisplay Pro Regular, Verdana, sans-serif;
+}
+
+.back-video {
+	position: fixed;
+	z-index:-1000;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+}
+
+.main-nav {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background:#1E90FF;
+	text-align: center;
+	text-shadow: none;
+	font-size: 1em;
+	font-family: PF DinDisplay Pro Regular, Verdana, sans-serif;
+	line-height: 1.3;
+}
+
+.main-nav > li {	
+	display: inline-block;
+	position: relative;
+}
+
+.main-nav li a {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #fff;	
+}
+
+.main-nav li a:hover {
+	background: #52a8ff;	
+}
+
+#toTop {
+	display: none;
+	position: relative;
+	width: 60px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+#toTop:hover {
+		background: #52a8ff;
+	}
+
+.main-subnav {
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	left:-9999px;
+	background: rgba(30,144,255,0.9);
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 240px;
+	text-shadow: none;
+	font-size: 1em;
+	font-family: PF DinDisplay Pro Regular, Verdana, sans-serif;
+	line-height: 1.3;
+	transition: opacity 0.25s;
+	-o-transition: opacity 0.25s;
+	-webkit-transition: opacity 0.25s;
+	-moz-transition: opacity 0.25s;
+}
+
+.main-subnav li {
+	list-style-image: none;
+}
+
+.main-nav li:hover ul {
+	opacity: 1;
+	left:20px;
+}
+
+.header {
+	position: relative;
+	width: 1000px;	
+	margin: 0 auto;
+}
+
+h1, h2, .tel, .h1-footer, .tel-footer, .credits {
+	font-family: PF DinDisplay Pro Regular;
+	color: #ffffff;
+}
+
+.logo {
+	position: absolute;
+	top: 80px;
+	left: 50px;	
+}
+
+.social {
+	position: absolute;
+	top: 80px;
+	right:20px;
+}
+
+.social-link {
+	display: inline-block;
+	position: relative;
+	background: url(img/social-sprite.png) no-repeat;
+	border-radius: 100px;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.social-fb {
+	background-position: -57px 0;
+}
+
+.social-vk {
+	background-position: 0 0;
+}
+
+.social-ok {
+	background-position: -170px 0;
+}
+
+.social-yt {
+	background-position: -170px -55px;
+}
+
+.social a:hover {
+	box-shadow: 0px 0px 10px rgba(189, 224, 255, 0.7);
+	filter: brightness(120%);
+}
+
+.tel {
+	display: block;
+	position: absolute;
+	top: 140px;
+	right: 50px;
+	font-size: 29px;
+	text-shadow: rgba(0, 0, 0, 0.5) 0 0 20px;
+}
+
+.h1 {
+	position: absolute;
+	width: 1000px;
+	top: 250px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+	text-shadow: 1px 1px 0px rgba(73, 85, 97, 1),
+	rgba(0, 0, 0, 0.5) 0 0 20px;
+	text-align: center;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.5) 0 0 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+/* Конец стилей шапки / End of header styles */
+
+.content {
+	width: 1020px;
+	margin: 200px auto 50px auto;
+}
+
+.floatbox.main {
+	position: relative;
+	margin-top: 800px;
+	padding:5px;
+	background: #1E90FF;
+	color: #ffffff;	
+}
+.floatbox.main img {
+	position: absolute;
+	left:500px;
+	top:65px;	
+}
+
+.floatbox {
+	margin-top: 30px;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 20px 60px;
+	border-radius: 30px
+}
+
+.floatbox-mini {
+	width: 80%;
+	margin: 30px auto 0 auto;
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+}
+
+h4 {
+	display:block;
+	color: #1E90FF;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 0 0 5px #fff;
+}
+
+h5 {
+	text-align: center;
+	font-size: 15px;
+	margin: 10px;
+}
+
+p, ul {
+	font-family: PF DinDisplay Pro Medium;
+	font-size:1.1em;
+	text-shadow: 0 0 5px #fff;
+	line-height: 1.5;
+	width: 870px;
+	margin: 10px auto;	
+}
+
+ul li {
+	list-style-image: url(img/marker.png);
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+.red {
+	color: red;
+}
+.blue {
+	color: #1E90FF;
+	text-shadow: 0 0 5px #fff;
+}
+
+hr {
+	height: 1px;
+	color: #1E90FF;
+}
+
+/* Скрытые строки */ 
+.main-line {
+	position: relative;
+	line-height: 70px;
+	margin: 0 auto;
+	width: 800px;
+	font-size: 18px;
+}
+
+.hidden {
+	display: none;
+	box-sizing: border-box; /* Лечение прыжков slideToggle */
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px 60px;
+	line-height: 1.3em;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: justify;
+	background: #fff;
+	box-shadow: 0px -1px 13px -5px #000000 inset;
+	cursor: auto;
+}
+
+/* Форма регистрации в шапке */
+
+#Reg1 {
+	float: right;
+	width: 600px;
+	padding: 20px;
+	border: 1px solid #1E90FF;
+	border-radius: 10px;
+}
+
+.Reg1-box-left {
+	width: 270px;
+	height: 45px;
+	margin:0 10px 5px 0;
+	padding-left:20px;
+	float: left;
+	font-family: PF DinDisplay Pro Light;
+	font-size:16px;
+}
+
+.Reg1-box-right {
+	width: 270px;
+	height: 45px;
+	margin:0 0 5px 0;
+	padding-left:20px;
+	float: right;
+	font-family: PF DinDisplay Pro Light;
+	font-size:16px;
+}
+
+.Reg1-comment {
+	height: 90px;
+	width: 272px;
+	float: right;
+	padding: 15px 0 0 20px;	
+	font-family: PF DinDisplay Pro Light;
+	font-size:16px;
+}
+
+#Reg1 input[type="submit"] {
+	float:left;
+	background: #1E90FF;
+	width: 600px;
+	height: 50px;
+	color: #ffffff;	
+	font-family: PF DinDisplay Pro Light;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: 0 -1px 0 #003971;
+	clear: both;
+}
+input[type="submit"]:active {
+	box-shadow: none;
+	top:-2px;
+}
+input[type="submit"]:hover {
+	background: #52a8ff;
+}
+#Reg1 span {
+	font-family: PF DinDisplay Pro Medium;
+	margin-top: 20px;
+	text-align:center;
+	width: 600px;
+	float: left;
+	clear: both;
+}
+
+/* Список услуг */
+
+.service1:before,.service2:before,.service3:before,.service4:before,
+.service5:before,.service6:before,.service7:before {
+	position: relative;
+	top: 10px;
+	text-align: center;
+	float: left;
+	width: 150px;
+	height: 70px;
+}
+.service1:before {
+	content: url(img/services/planner.png);
+}
+.service2:before {
+	content: url(img/services/plane.png);
+}
+.service3:before {
+	content: url(img/services/hangar.png);
+}
+.service4:before {
+	content: url(img/services/service.png);
+}
+.service5:before {
+	content: url(img/services/oil.png);
+}
+.service6:before {
+	content: url(img/services/fest.png);
+}
+.service7:before {
+	content: url(img/services/pilotage.png);
+}
+
+.main-line:nth-child(2n) {
+	background: rgba(255, 255, 255, 0.3);	
+}
+.main-line:hover {
+	background: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
+}
+
+#services h5 {
+	margin-top: -20px;
+}
+
+/* Преимущества */
+
+#pros table {
+	table-layout: fixed;
+	margin: 20px auto;
+	width: 870px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#pros td {
+	vertical-align: top;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+	padding: 10px 5px;
+	transition: all 100ms linear;
+}
+
+#pros td:hover {
+	background: rgba(255, 255, 255, 1);
+	transform: scale(1.1);
+}
+
+#pros img {
+	width: 60px;
+	padding: 15px 0;
+}
+
+#pros .a-button {
+	padding: 5px;
+	width: 120px;
+	text-shadow: none;
+}
+
+/* Контакты */
+
+#contacts span,
+#contacts a {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#contacts span {
+	font-size: 2em;
+	color: #1E90FF;
+	font-weight: bold;
+}
+
+#contacts a{
+	font-size: 1.2em;
+	color: #007fff;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+#contacts table {
+	background: rgba(255, 255, 255, 0.3);
+	border-collapse: collapse;
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	cursor: default;
+}
+
+#contacts tr:hover {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#contacts td {
+	padding: 10px 0;
+}
+
+/* Как нас найти */
+
+#fin {
+	border-radius: 30px 30px 0 0;
+	margin-bottom: -60px;
+}
+
+#fin h4 {
+	font-size: 1.6em;
+}
+
+/* КАК ЭТО РАБОТАЕТ */
+
+/* Как записаться на полёт */
+
+#sign-in ol {
+	list-style: none;
+	padding: 0;
+	background-image: url(img/backgrounds/scheme2.jpg);
+	border-radius: 20px;
+	padding: 20px;
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+#sign-in ol li {
+	position: relative;
+	margin-top: 10px;
+	padding: 10px;
+}
+#sign-in ol li:nth-child(1) {
+	left: 680px;
+	width: 100px;
+}
+#sign-in ol li:nth-child(1)::before {
+	content: "5) ";
+	color: #1E90FF;
+	position: absolute;
+	left: -10px;
+}
+#sign-in ol li:nth-child(2) {
+	left: 420px;
+	width: 350px;
+}
+#sign-in ol li:nth-child(2)::before {
+	content: "4) ";
+	color: #1E90FF;
+	position: absolute;
+	left: -10px;
+}
+#sign-in ol li:nth-child(3) {
+	left: 280px;
+	width: 400px;
+}
+#sign-in ol li:nth-child(3)::before {
+	content: "3) ";
+	color: #1E90FF;
+	position: absolute;
+	left: -10px;
+}
+#sign-in ol li:nth-child(4) {
+	left: 140px;
+	width: 400px;
+}
+#sign-in ol li:nth-child(4)::before {
+	content: "2) ";
+	color: #1E90FF;
+	position: absolute;
+	left: -10px;
+}
+#sign-in ol li:nth-child(5) {
+	width: 400px;
+	left: 10px;
+}
+#sign-in ol li:nth-child(5)::before {
+	content: "1) ";
+	color: #1E90FF;
+	position: absolute;
+	left: -10px;
+}
+
+.a-button {
+	display: inline-block;
+	position:relative;
+	font-family: PF DinDisplay Pro Light;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	background: #1E90FF;
+	border-radius: 10px;
+	box-shadow: 0 -1px 0 #003971;}
+.a-button:active {
+	box-shadow: none;
+	top:-2px;
+}
+.a-button:hover {
+	background: #52a8ff;
+}
+#sign-in .a-button {
+	width: 200px;
+	padding: 10px;
+	text-shadow: none;
+	left: 80px;
+	font-weight: normal;
+}
+
+/* Как проходит полёт */
+
+#flight-program .main-line {
+	font-weight: bold;
+}
+#flight-program .main-line span {
+	padding-left: 30px;
+}
+
+#flight-program .main-line:last-child {
+	cursor: default;
+}
+
+/* Кто допускается к полётам */
+
+#limits span {
+	color: #1E90FF;
+}
+
+#limits table {
+	width: 500px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+#limits ul {
+	padding-left: 370px;
+	width: 470px;
+	font-size: 1em;
+}
+
+/* Список вещей для визита */
+
+#things img {
+	float: right;
+	width: 270px;
+	margin: 10px 0 0 20px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+#things ul {
+	width: auto;
+	font-size: 1em;
+}
+
+#things td {
+	vertical-align: top;
+}
+
+/* Подготовка планера */
+
+#preparation {
+	text-align: center;
+}
+
+#preparation .a-button {
+	margin:  10px auto;
+	padding: 10px 30px;
+	font-size: 1.2em;
+	font-family: PF DinDisplay Pro Medium;
+}
+
+/* ФОТО И ВИДЕО */
+
+/* Фотографии и видеозаписи */
+
+.gallery {
+	display: inline-block;
+	margin: 10px;
+	width: 200px;
+	height: 133px;
+	border-radius: 15px;
+}
+
+.photo-container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#photo + div .a-button,
+#video .a-button {
+	display: block;
+	width: 300px;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+#video iframe {
+	display: inline-block;
+	margin: 5px;
+	width: 280px;
+	height: 180px;
+}
+
+/* О НАС */
+
+/* О компании */
+
+.video {
+	display: block;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.video-right {
+	float: right;
+	margin: 10px 0 0 20px;
+}
+
+.video-left {
+	float: left;
+	margin: 10px 20px 0 0;
+}
+
+#about + div li {
+	list-style-image: none;
+}
+
+.info {
+	list-style: none;	
+}
+.info a {
+	display: table;	
+	margin-bottom: 10px;
+}
+
+#about + div  img {
+	width:20%;	
+	float: right;
+	margin-left: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#about  + div .a-button {
+	float:right;
+	width: 150px;
+	margin-right:100px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+/* Наш экипаж */
+
+#crew img {
+	border-radius: 15px;
+}
+
+#crew table {
+	width: 100%;
+}
+
+#crew td {
+	width: 25%;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 15px;
+	font-family: PF DinDisplay Pro Light;
+}
+
+/* Наш авиапарк */
+
+#planes > div {
+	float: left;
+	width: 280px;
+	margin: 0 10px;
+}
+
+#planes > div img {
+	width: 130px;
+	height: 80px;
+	margin: 5px;
+	float: left;
+	border-radius: 10px;
+}
+
+#planes td {
+	width: 140px;
+	font-size: 0.8em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+	cursor: default;
+}
+
+#planes tr:hover td {
+	border-bottom: 1px dotted #1E90FF;
+}
+
+/* Конец стилей контента / End of content styles */
+
+.footer {
+	position: relative;
+	bottom:0;
+	left:0;
+	height: 180px;
+	width:100%;
+	background: rgba(31,31,31,1) url(img/footer-back.png) repeat;
+}
+
+.footer-narrow {
+	position: relative;
+	width:1000px;
+	margin: 0 auto;
+}
+
+.logo-footer {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+
+.h1-footer {
+	display: block;
+	position: absolute;
+	top: 50px;
+	left:200px;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin:0;
+	padding: 0;
+}
+
+.tel-footer {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	font-size: 29px;
+	text-shadow: rgba(0, 0, 0, 0.5) 0 0 20px;
+}
+
+.social-footer {
+	position: absolute;
+	top: 60px;
+	right:20px;
+}
+
+.credits {
+	display: block;
+	position: absolute;
+	top: 120px;
+	left: 50px;
+}
+
+.credits a {
+	color: #ffffff;
+	text-decoration:none;
+}
+.credits a:hover {
+	text-decoration:underline;
+}
+
+/* Fancybox */
+
+.fancybox {
+	cursor: pointer;
+}
+
+.fancybox-inner img {
+	border-radius: 15px;
+	margin: 10px 5px;
+}
+
+.fancybox-inner iframe {
+	display: inline-block;
+	margin: 5px !important;
+	width: 280px;
+	height: 180px;
+}
+
+.fancybox-inner p,
+.fancybox-inner ul,
+.fancybox-inner ol,
+.fancybox-inner h3 {
+	width: 670px;
+	font-family: PF DinDisplay Pro Light;
+}
+
+.fancybox-inner p {
+	padding: 0 15px;
+}
+
+/* Открытие картинок */
+
+.im {
+	cursor: pointer;
+}
+
+#FixedBlack {
+	z-index: 8031;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.50);
+	display: none;
+	opacity: 0;
+}
+
+#FixedBlack td {
+	text-align: center;
+}
+
+#im {
+	position: relative;
+	background: #fff;
+	box-shadow: 0 0 10px white;
+	border: 3px solid #fff;
+	border-radius: 6px;
+	cursor: pointer;
+}

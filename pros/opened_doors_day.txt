@@ -1,0 +1,19 @@
+<h4><a href="http://www.m24.ru/videos/85268">Смотреть видео</a></h4>
+
+<hr />
+
+<p style="text-align: center;">Ежегодный авиационный слёт снова соберёт на аэродроме «Шевлино»
+выдающихся пилотов, известных авиаторов, рекордсменов,
+чемпионов и призёров международных соревнований
+по авиационным видам спорта.</p>
+
+<h4><a href="http://vertoslet.ru">http://vertoslet.ru</a></h4>
+
+<div class="photo-container" style="width: 670px;">
+	<img class="im gallery" src="img/pros/opened_doors_day/odd1.jpg" />
+	<img class="im gallery" src="img/pros/opened_doors_day/odd2.jpg" />
+	<img class="im gallery" src="img/pros/opened_doors_day/odd3.jpg" />
+	<img class="im gallery" src="img/pros/opened_doors_day/odd4.jpg" />
+	<img class="im gallery" src="img/pros/opened_doors_day/odd5.jpg" />
+	<img class="im gallery" src="img/pros/opened_doors_day/odd6.jpg" />
+</div>

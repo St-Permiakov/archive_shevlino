@@ -1,0 +1,32 @@
+<h3>Кафе-бар русской кухни «Первым делом»</h3>
+
+<div style="float: right; margin: 0 15px;">
+<img class="im" style="display: block;" width="200px" src="img/pros/cafe/cafe1.jpg" />
+<img class="im" style="display: block;" width="200px" src="img/pros/cafe/cafe2.jpg" />
+</div>
+
+<p>С сентября 2013 года в клубном домике функционировало кафе. До недавнего момента всё было просто и по-спартански: первое, второе и компот. Сейчас же на его месте заработал полноценный ресторан, кафе-бар «Первым делом…». Преобразования связаны с тем, что управлять им начала семейная пара - Андрей и Татьяна. </p>
+
+<p>Интерьер изменился до неузнаваемости: диваны, зеркала, фотографии из жизни аэродрома и прочий антураж &mdash; всё в village-стиле. Еда стала дешевле, разнообразнее, и теперь её можно взять с собой! Некоторые блюда готовятся вручную. В меню появилась ароматная выпечка: пирожки и торты. Те, кто хоть раз отведал блюда русской кухни кафе-бара «Первым делом…» (супы, пельмени, гарниры, выпечка, компоты, морсы), становятся постоянными посетителями и говорят в один голос: «Хотим добавки, у вас вкусно, как дома!» Всё по-домашнему, и сильно напоминает Европу, где при каждом, даже самом маленьком аэродроме, есть ресторанчик.</p>
+
+<p>Кафе-бар «Первым делом…» принимает заказы на проведение различных мероприятий: дней рождения, корпоративов и т.п.</p>
+
+<p>Кафе открыто как для всех: просто оказавшись рядом, вы можете зайти на чай, и на плотную трапезу.</p>
+<p>Семейный ресторанчик всегда встретит вас радушием, уютом и вкусными блюдами!</p>
+
+<p><strong>Контакты:</strong> Татьяна, Андрей  8-905-601-56-50, homeonvolga@mail.ru</p>
+<p><a href="https://vk.com/public68413890">Мы ВКонтакте</a> , <a href="https://www.facebook.com/shevlinokaffe">Мы в Facebook</a> </p>
+<div class="photo-container" style="width: 670px;">
+	<img class="im gallery" src="img/pros/cafe/kafefoto1.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto2.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto3.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto4.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto5.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto6.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto7.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto8.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto9.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto10.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto11.jpg" />
+	<img class="im gallery" src="img/pros/cafe/kafefoto12.jpg" />
+</div>
